@@ -1,0 +1,130 @@
+nav {
+    background-color: #14d8f3;
+}
+
+.card .card-content p {
+    margin: 0.75em;
+}
+
+p {    
+    text-align: justify;
+    font-size: 1.05em;
+}
+
+.selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.proyecto {
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+    transition-property: all;
+    transition-duration: 2s
+}
+
+.proyecto:hover {
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.16);
+    transition-duration: 2s;
+}
+
+.proyecto img{
+    height: 227.78px;
+    overflow: hidden;
+}
+
+.card-title {
+    color: #14d8f3;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: #FF8311;
+}
+
+.chip {
+    margin-bottom: 0.5em;
+}
+
+.viewProyect {
+    margin: 1%;
+}
+
+#slider {
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#photo {
+    width: 100%;
+}
+
+#select {
+    width: 100%;
+    align-content: center;
+}
+
+#select li {
+    float: left;
+}
+
+#beforeSlider {
+    z-index: 2;
+    position: absolute;
+    top: 52%;
+    font-size: 3em;
+}
+
+#nextSlider {
+    z-index: 2;
+    position: absolute;
+    top: 52%;
+    right: 1%;
+    font-size: 3em;
+}
+
+a {
+    cursor: pointer;
+}
+
+#slider a:hover {
+    color: #FF8311;
+}
+
+.chip i.material-icons {
+    cursor: default;
+}
+
+.modal{
+    width: 80%;
+   /* height: 100%;*/
+}
+
+.modal .modal-content{
+    padding: 0px;
+}
+
+.modal img{
+    width: 100%;
+    /*margin-left: 1%;*/
+}
+
+
+/*
+@media only screen and (min-width: 992px) {
+    nav #big {
+        visibility: visible;
+    }
+    nav #small {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    nav #big {
+        visibility: hidden;
+    }
+    nav #small {
+        visibility: visible;
+    }
+}*/

@@ -1,0 +1,79 @@
+/*.card-panel, .card, .card-content{
+    background: red;
+}*/
+
+h4{
+    padding: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+b{
+    font-size: 1.3em;
+}
+
+/*.proyecto,{
+    width: 90%;
+    margin-left: 5%;
+}*/
+
+.card, /*.card-image,*/ .card-panel{
+     width: 95%;
+    margin: 2.5%;
+}
+
+.chip {
+    margin-bottom: 0.5em;
+}
+/*
+.viewProyect {
+    margin: 1%;
+}*/
+
+#slider {
+    width: 98%;
+    margin-left: 1%;
+}
+
+#photo {
+    width: 100%;
+}
+
+#foto {
+    width: 60%;
+    /*width: auto;*/
+    left: 20%;
+    border-radius: 15em;
+}
+
+#select {
+    width: 100%;
+    align-content: center;
+}
+
+.select {
+    top: 0px;
+    font-size: 1.5em;
+}
+
+#beforeSlider {
+    top: 35%;
+    font-size: 3em;
+}
+
+#nextSlider {
+    top: 35%;
+    right: 1%;
+    font-size: 3em;
+}
+
+nav #big {
+    visibility: hidden;
+}
+
+nav #small {
+    visibility: visible;
+}

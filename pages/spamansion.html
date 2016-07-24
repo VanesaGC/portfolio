@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.js"></script>
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link rel="stylesheet" media="(max-width: 736px)" href="../css/style_max_736.css" />
+
+    <link rel="stylesheet" media="(min-width: 737px)" href="../css/style_max_1023.css" />
+
+    <link rel="stylesheet" media="(min-width: 1024px)" href="../css/style_min_1024.css" />
+    
+    <style>
+        
+        #slider{
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        
+        #slider img{
+            width: 37%;
+            margin-left: 31.5%;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var galeria = ["spa1.png", "spa2.png", "spa3.png", "spa5.png", "spa10.png", "spa7.png", "spa8.png", "spa15.png", "spa23.png", "spa24.png", "spa20.png"];
+
+        $(document).ready(function () {
+            $('.modal-trigger').leanModal();
+        });
+    </script>
+
+    <script type="text/javascript" src="../js/slider.js"></script>
+    
+    <title>Vanesa García - Trabajo</title>
+
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav id="big">
+            <div class="nav-wrapper">
+                <a href="../index.html" class="brand-logo">VGC</a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="selected"><a href="../pages/trabajos.html">Trabajos</a></li>
+
+                    <li><a href="https://github.com/VanesaGC" target="_blank"><i class="material-icons"><img src="../images/iconos/GitHub-Mark-Light-32px.png"/></i></a></li>
+                    <li><a href="https://es.linkedin.com/pub/vanesa-garc%C3%ADa-campos/98/902/3a" target="_blank"><i class="material-icons"><img src="../images/iconos/linkedin-logo-32px.png"/></i></a></li>
+
+                    <li><a href="mailto:vanesa.garcia.c@gmail.com"><i class="material-icons">email</i></a></li>
+
+                </ul>
+
+            </div>
+        </nav>
+        <nav id="small">
+            <a href="../index.html" class="brand-logo">VGC</a>
+            <ul id="slide-out" class="side-nav">
+                <li class="selected"><a href="../pages/trabajos.html">Trabajos</a></li>
+
+                <li><a href="https://github.com/VanesaGC">GitHub</a></li>
+                <li><a href="https://es.linkedin.com/pub/vanesa-garc%C3%ADa-campos/98/902/3a">Linkedin</a></li>
+
+                <li><a href="mailto:vanesa.garcia.c@gmail.com">Email</a></li>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        </nav>
+
+    </div>
+    <div class="content">
+
+        <div class="card-panel viewProyect">
+
+            <h5>Buscador de farmacias</h5>
+            <br/>
+            <!-- slides -->
+            <section id="slider">
+                <a onclick="before()"><i class='material-icons' id="beforeSlider">navigate_before</i></a>
+                <a class="modal-trigger" href="#modal1">
+                    <img id="photo" src="" />
+                </a>
+                <a onclick="next()"><i class='material-icons' id="nextSlider">navigate_next</i></a>
+                <ul id="select">
+
+                </ul>
+
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <img id="photoModal" src="" />
+                    </div>
+                    <div class="modal-footer">
+                        <a href="" class=" modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                    </div>
+                </div>
+            </section>
+
+            <br/>
+            <br/>
+
+            <b>Tema del proyecto</b>
+            <p>
+                Crear una página web, que invite al usuario a pedir cita al "Spa Mansión". Además, de informar de los tratamientos que este realiza y los beneficios que conllevan.
+            </p>
+
+            <b>Información técnica</b>
+            <p>
+                Para la realización del proyecto, se han utilizado las siguientes tecnologías: JSP, mySQL, HTML y CSS.
+            </p>
+
+        </div>
+    </div>
+
+    <script>
+        $('.button-collapse').sideNav({
+            menuWidth: 300, // Default is 240
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        });
+    </script>
+
+</body>
+
+</html>

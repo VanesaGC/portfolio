@@ -1,0 +1,63 @@
+/*.card-panel,
+.card,
+.card-content {
+    background: yellow;
+}*/
+
+p {
+    text-align: justify;
+    font-size: 1.05em;
+}
+
+.proyecto {
+    width: 30%;
+    margin-left: 1.6%;
+}
+
+.chip {
+    margin-bottom: 0.5em;
+}
+
+/*.viewProyect {
+    margin: 1%;
+}*/
+
+#slider {
+    width: 70%;
+    margin-left: 15%;
+}
+
+#photo {
+    width: 100%;
+}
+
+#foto {
+    width: 15%;
+    /*width: auto;*/
+    left: 42.5%;
+    border-radius: 15em;
+}
+
+#select {
+    width: 100%;
+    align-content: center;
+}
+
+#beforeSlider {
+    top: 52%;
+    font-size: 3em;
+}
+
+#nextSlider {
+    top: 52%;
+    right: 1%;
+    font-size: 3em;
+}
+
+#big {
+    visibility: visible;
+}
+
+#small {
+    visibility: hidden;
+}

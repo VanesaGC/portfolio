@@ -1,0 +1,91 @@
+/*.card-panel, .card, .card-content{
+    background: blue;
+}*/
+
+h4{
+    padding: 20px;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+b{
+    font-size: 1.2em;
+}
+
+.card, /*.card-image,*/ .card-panel{
+     width: 95%;
+    margin: 2.5%;
+}
+
+.proyecto {
+    width: 47%;
+    margin: 1.5%;
+}
+
+
+
+.chip {
+    margin-bottom: 0.5em;
+}
+
+/*.viewProyect {
+    margin: 1%;
+}*/
+
+#slider {
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+#photo {
+    width: 100%;
+}
+
+/*.card-image{
+    width: 50%;
+}*/
+
+/*#aboutMeText{
+    width: 50%;
+}*/
+
+#foto {
+    width: 25%;
+    /*width: auto;*/
+    left: 37.5%;
+    border-radius: 15em;
+}
+
+#select {
+    width: 100%;
+    align-content: center;
+}
+
+#beforeSlider {
+    top: 52%;
+    font-size: 3em;
+}
+
+#nextSlider {
+    top: 52%;
+    right: 1%;
+    font-size: 3em;
+}
+
+nav #big {
+    visibility: hidden;
+}
+
+nav #small {
+    visibility: visible;
+}
+
+.modal{
+    width: 80%;
+    height: 120%;
+}
